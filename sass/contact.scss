@@ -1,0 +1,36 @@
+//contact style
+.reseaux{
+    height: 50px; 
+    margin-left: 100px;
+    
+}
+.reseaux1{
+    height: 50px; 
+    margin-right: 100px;
+    
+}
+.btnres{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 50px;
+
+    a{
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+}
+button:hover{
+    transition-duration: 500ms;
+    background-color: black;
+    a{
+        color: white;
+    }
+}
